@@ -1,5 +1,3 @@
-# main.py
-
 class MyClass:
     def __init__(self, value):
         self._value = value
@@ -22,4 +20,5 @@ print(obj.get_value())
 obj.set_value(100)
 print(obj.get_value())
 obj.deL_value()
+
 print(obj.get_value())
